@@ -1,0 +1,15 @@
+/vendor/
+
+# dependencies
+/build/node_modules
+
+# testing
+/build/coverage
+
+# misc
+.DS_Store
+.idea
+
+/build/npm-debug.log*
+/build/yarn-debug.log*
+/build/yarn-error.log*
