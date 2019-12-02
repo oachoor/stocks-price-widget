@@ -8,24 +8,24 @@
 			"email": "oachoor@gmail.com"
 		}
 	],
-    "require": {
-        "symfony/config": "^5.0",
-        "symfony/http-kernel": "^5.0",
-        "symfony/http-foundation": "^5.0",
-        "symfony/routing": "^5.0",
-        "symfony/dependency-injection": "^5.0",
-        "symfony/framework-bundle": "^5.0",
-        "symfony/http-client": "^5.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "App\\": "src/"
-        }
-    },
-    "require-dev": {
-        "symfony/browser-kit": "^5.0",
-        "phpunit/phpunit": "^8.4"
-    },
+	"require": {
+		"symfony/config": "^5.0",
+		"symfony/http-kernel": "^5.0",
+		"symfony/http-foundation": "^5.0",
+		"symfony/routing": "^5.0",
+		"symfony/dependency-injection": "^5.0",
+		"symfony/framework-bundle": "^5.0",
+		"symfony/http-client": "^5.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"App\\": "src/"
+		}
+	},
+	"require-dev": {
+		"symfony/browser-kit": "^5.0",
+		"phpunit/phpunit": "^8.4"
+	},
 	"scripts": {
 		"test": "vendor/bin/phpunit tests"
 	}

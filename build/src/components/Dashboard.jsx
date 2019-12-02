@@ -17,7 +17,7 @@ export default class Dashboard extends React.Component {
 
 	componentDidMount = () => {
 		try {
-			this.setState({ showSpinner: true })
+			this.setState({showSpinner: true})
 			setInterval(async () => {
 				const response = await fetch(stocksUrl + '/stock/actives');
 				const stocks = await response.json();
@@ -26,7 +26,7 @@ export default class Dashboard extends React.Component {
 					showSpinner: false
 				})
 			}, 10000);
-		} catch(e) {
+		} catch (e) {
 			console.log(e);
 		}
 	}

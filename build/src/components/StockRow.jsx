@@ -2,7 +2,6 @@ import React from 'react'
 import TimeAgo from 'react-timeago'
 
 export default class StockRow extends React.Component {
-
 	getStockValueColor = (stock) => {
 		if (stock.changesPercentage.includes('-')) {
 			return 'text-danger';

@@ -43,23 +43,23 @@ class StockController
 	 * @throws \Symfony\Contracts\HttpClient\Exception\RedirectionExceptionInterface
 	 * @throws \Symfony\Contracts\HttpClient\Exception\ServerExceptionInterface
 	 */
-    public function actives(int $limit): JsonResponse
-    {
+	public function actives(int $limit): JsonResponse
+	{
 		try {
 			$response = $this->client->getCompanies();
 			$data = $response->toArray();
 		} catch (\Exception $e) {
 			$data = [
 				'error' => $e->getCode(),
-				'message' => $e->getMessage()
+				'message' => $e->getMessage(),
 			];
 		}
 
 		return new JsonResponse($data, Response::HTTP_OK, [
 			'Access-Control-Allow-Origin' => '*',
-			'Access-Control-Allow-Headers' => '*'
+			'Access-Control-Allow-Headers' => '*',
 		]);
-    }
+	}
 
 	/**
 	 * @Route("/price/{symbol}")
@@ -80,13 +80,13 @@ class StockController
 		} catch (\Exception $e) {
 			$data = [
 				'error' => $e->getCode(),
-				'message' => $e->getMessage()
+				'message' => $e->getMessage(),
 			];
 		}
 
 		return new JsonResponse($data, Response::HTTP_OK, [
 			'Access-Control-Allow-Origin' => '*',
-			'Access-Control-Allow-Headers' => '*'
+			'Access-Control-Allow-Headers' => '*',
 		]);
 	}
 }

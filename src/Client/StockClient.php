@@ -15,7 +15,7 @@ use Symfony\Contracts\HttpClient\Exception\TransportExceptionInterface;
 final class StockClient
 {
 	public const VERSION = 'v3';
-	public const URL = 'https://financialmodelingprep.com';
+	public const URL     = 'https://financialmodelingprep.com';
 
 	/** @var HttpClientInterface */
 	protected $httpClient;

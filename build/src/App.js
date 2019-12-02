@@ -27,11 +27,11 @@ export default class App extends Component {
 
 	render() {
 		if (this.state.hasError) {
-			return <div className='card'>
-				<div className='card-content'>
-					You need to click on &nbsp;<code>Load Unsafe Scripts</code>&nbsp; to proceed.
-					<br/> Look for the &nbsp;<code>shield icon</code>&nbsp; on your browser's addreess bar.  &#8679;
-					<br/><br/>(Trust me, it's just an app which shows some simulated share market data :p)
+			return <div className="card">
+				<div className="card-content">
+					You'll have to click on &nbsp;<code>Load Unsafe Scripts</code>&nbsp; to proceed.
+					<br/> Please refer to the &nbsp;
+					<code>shield icon</code>&nbsp; on your browser's address bar. &#8679;
 				</div>
 			</div>;
 		}
