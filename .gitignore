@@ -10,6 +10,7 @@
 # misc
 .DS_Store
 .idea
+phpunit.result.cache
 
 /build/npm-debug.log*
 /build/yarn-debug.log*

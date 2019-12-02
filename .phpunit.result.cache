@@ -1,1 +1,0 @@
-C:37:"PHPUnit\Runner\DefaultTestResultCache":280:{a:2:{s:7:"defects";a:2:{s:45:"App\Tests\StockControllerTest::testListStocks";i:4;s:45:"App\Tests\StockControllerTest::testWrongRoute";i:4;}s:5:"times";a:2:{s:45:"App\Tests\StockControllerTest::testListStocks";d:1.177;s:45:"App\Tests\StockControllerTest::testWrongRoute";d:0.998;}}}

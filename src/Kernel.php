@@ -48,6 +48,6 @@ class Kernel extends BaseKernel
 		$routes->add('/stock/actives/{limit}', StockController::class . ':actives');
 		$routes->add('/stock/price/{symbol}', StockController::class . ':price');
 		$routes->setRequirement('limit', '\d+');
-		$routes->setDefault('limit', 10);
+		$routes->setDefault('limit', 5);
 	}
 }

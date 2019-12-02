@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Tests;
+namespace Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 use Symfony\Component\BrowserKit\HttpBrowser;
