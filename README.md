@@ -1,4 +1,4 @@
-# Stocks Price Challenge
+# Stocks Price Widget
 
 Restful API to fetch stocks price based on Financialmodelingprep.
 
@@ -14,15 +14,17 @@ Restful API to fetch stocks price based on Financialmodelingprep.
 
 2. `composer install`
 
-3. `cd public && yarn install`
+3. `cd build && yarn install`
 
 ## Usage
 
-Run the following commands:
+Run the following commands (Make sure ports 8000 & 3000 are not used)
 ```
 php -S localhost:8000
-cd public yarn start
+cd build && yarn start
 ```
+
+On success you'll get redirected to http://localhost:3000
 
 ## The Task
 
